@@ -130,7 +130,7 @@
 <script type="text/javascript" src="/dist/video.js"></script>
 
 <hr>
-<h4 id="B站视频播放器测试："><a href="#B站视频播放器测试：" class="headerlink" title="B站视频播放器测试："></a>B站视频播放器测试：</h4><iframe class="iframe_video" src="//player.bilibili.com/player.html?aid=11932135&cid=19697229&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
+<h4 id="B站视频播放器测试："><a href="#B站视频播放器测试：" class="headerlink" title="B站视频播放器测试："></a>B站视频播放器测试：</h4><iframe class="iframe_video" src="//player.bilibili.com/player.html?aid=455914516&bvid=BV1Z5411p7Ct&cid=204031142&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
   </entry>
   <entry>
     <title>关于Hexo Next上传至GitHubCss样式改变的解决方法</title>
