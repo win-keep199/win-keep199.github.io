@@ -19,7 +19,7 @@ const dp = new DPlayer({
     subtitle: {
         url: 'https://s-sh-17-dplayercdn.oss.dogecdn.com/hikarunara.vtt',
         type: 'webvtt',
-        fontSize: '25px',
+        fontSize: '20px',
         bottom: '10%',
         color: '#b7daff',
     },
@@ -49,4 +49,5 @@ const dp = new DPlayer({
             text: '这是 2 分钟',
         },
     ],
-});
+},
+);
