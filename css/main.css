@@ -1869,7 +1869,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff9c8f;
+  background: #bf4265;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3222,7 +3222,7 @@ div.post-block.tag .collection-title h2 {
 }
 .out-img-topic {
   display: block;
-  max-height: 300px;
+  max-height: auto;
   margin-bottom: 24px;
   overflow: hidden;
 }
@@ -3231,7 +3231,6 @@ img.img-topic {
   margin-left: 0.7em;
   margin-right: 0.7em;
   padding: 0;
-  float: right;
   clear: right;
 }
 .highlight {
