@@ -1913,7 +1913,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d1fffa;
+  background: #16dd01;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3161,7 +3161,7 @@ a.my-post-title-link:before {
   top: 10px;
   width: 18px;
   height: 18px;
-  content: "ðŸ“š";
+  content: "📚";
   margin-right: 5px;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 15px;
