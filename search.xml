@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>整除</title>
-    <url>/2020/07/24/%E6%95%B4%E9%99%A4/</url>
+    <url>/posts/62599/</url>
     <content><![CDATA[<h2 id="整除"><a href="#整除" class="headerlink" title="整除"></a>整除</h2><h4 id="整除的定义"><a href="#整除的定义" class="headerlink" title="整除的定义"></a>整除的定义</h4><p>​    对任给的两个整数<script type="math/tex">a,b(a\ne 0)</script>,如果存在整数<script type="math/tex">q</script>,使得<script type="math/tex">b=aq</script>,那么称<script type="math/tex">b</script>能被<script type="math/tex">a</script>整除,(或称<script type="math/tex">a</script>能整除<script type="math/tex">b</script>),记作<script type="math/tex">a\mid b</script>.否则,称<script type="math/tex">b</script>不能被<script type="math/tex">a</script>整除,记作<script type="math/tex">a \nmid b</script>  </p>
 <p>​    如果<script type="math/tex">a\mid b</script>,那么称<script type="math/tex">a</script>为<script type="math/tex">b</script>的因数,<script type="math/tex">b</script>为<script type="math/tex">a</script>的倍数.</p>
 <h4 id="整除的基本性质"><a href="#整除的基本性质" class="headerlink" title="整除的基本性质"></a>整除的基本性质</h4><ul>
@@ -29,7 +29,7 @@
   </entry>
   <entry>
     <title>Matlab学习笔记</title>
-    <url>/2020/03/31/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <url>/posts/29380/</url>
     <content><![CDATA[<h3 id="Matlab学习笔记"><a href="#Matlab学习笔记" class="headerlink" title="Matlab学习笔记"></a>Matlab学习笔记</h3><h5 id="语言基础"><a href="#语言基础" class="headerlink" title="语言基础"></a>语言基础</h5><p>在Matlab中：log(x)=In(x)</p>
 <p>内置函数：log2(x),log10(x)</p>
 <p>清空屏幕 clc</p>
@@ -65,7 +65,7 @@
   </entry>
   <entry>
     <title>Keil软件使用</title>
-    <url>/2020/03/31/Keil%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8/</url>
+    <url>/posts/32501/</url>
     <content><![CDATA[<h4 id="Keil软件使用"><a href="#Keil软件使用" class="headerlink" title="Keil软件使用"></a>Keil软件使用</h4><h5 id="安装Keil"><a href="#安装Keil" class="headerlink" title="安装Keil"></a>安装Keil</h5><p>本博客中Keil版本为V6.12</p>
 <p>建议大家学习时都选择此版本；</p>
 <h5 id="Keil工程建立"><a href="#Keil工程建立" class="headerlink" title="Keil工程建立"></a>Keil工程建立</h5><p>进入Keil出现编辑页面如图所示：</p>
@@ -99,7 +99,7 @@
   </entry>
   <entry>
     <title>Hello World</title>
-    <url>/2020/03/31/hello-world/</url>
+    <url>/posts/16107/</url>
     <content><![CDATA[<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;<span class="string">"Hello World!"</span>&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h4 id="类知乎卡片超链接测试"><a href="#类知乎卡片超链接测试" class="headerlink" title="类知乎卡片超链接测试"></a>类知乎卡片超链接测试</h4><p><a href="/photos/" class="LinkCard">我的相册——时光留影</a></p>
 <hr>
@@ -124,7 +124,7 @@
   </entry>
   <entry>
     <title>关于Hexo Next上传至GitHubCss样式改变的解决方法</title>
-    <url>/2020/03/31/%E5%85%B3%E4%BA%8EHexo%20Next%E4%B8%8A%E4%BC%A0%E8%87%B3GitHubCss%E6%A0%B7%E5%BC%8F%E6%94%B9%E5%8F%98%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <url>/posts/51052/</url>
     <content><![CDATA[<p>我们在Hexo写博客上传时经常会有这样的问题：我在本地测试的格式与上传至GitHub的格式<br>不同，这时我们可以按F12检查网页的不同<br><img src="/images/T-1.png" alt=""><br>检查一下Sources中css文件夹下的main.css文件<br>用它与本地的main.css文件对比可以发现其中的代码少了几百行❓；<br>这时我是这样做的(<del>既然本地的显示正常，把本地的复制下来替换一下不就好了😁</del>)<br>我就是这样做的，经过查看了几个文件夹之后我发现了方法🔍<br>当我们加载文件时(也就是hexo g)之后在你的博客文件夹下会出现一个名叫public的文件夹<br>这个文件夹也就是将要上传到GitHub的文件夹，于是我按照F12检查网页的方法也找到了<br>main.css文件，这时将从本地找到的css文件内容复制下来，然后再粘贴至main.css中，然后<br>hexo三连重新登录网站可以发现与本地的是一样的😂</p>
 <p>这时也发现了一个问题，public文件夹中的main.css文件在hexo g之后不会发生改变</p>
 <p>所以也可以将public中的文件全都删掉，再重新hexo g</p>
