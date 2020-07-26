@@ -1,3 +1,0 @@
-﻿  workapp1.cpp
-C:\Users\bai750601\source\repos\workapp1\workapp1\workapp1.cpp(3,12): error C2731: “WinMain”: 无法重载函数
-C:\Users\bai750601\source\repos\workapp1\workapp1\workapp1.cpp(3): message : 参见“WinMain”的声明
