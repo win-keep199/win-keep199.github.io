@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>对称点坐标</title>
+    <url>/posts/e21acd07/</url>
+    <content><![CDATA[<h3 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h3><p>​    在平面直角坐标系中,有一条直线<script type="math/tex">l: Ax+By+C=0</script>,<script type="math/tex">(注:方程Ax+By+C=0和解析式y=- \frac{A}{B} x-\frac{C}{B}在B\ne 0时等价 )</script>和一给定点<script type="math/tex">P(\alpha,\beta )</script>,求<script type="math/tex">P</script>点关于直线<script type="math/tex">l</script>的对称点的坐标</p>
+<p><img src="https://s1.ax1x.com/2020/07/30/auHbKH.png" style="zoom: 15%;" /></p>
+]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>数学公式</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>STL选讲</title>
     <url>/posts/a220/</url>
     <content><![CDATA[<h3 id="STL是什么"><a href="#STL是什么" class="headerlink" title="STL是什么"></a>STL是什么</h3><p>STL是建立在模板函数和类模板基础之上的功能强大的库，包括：<br>    —— 1）常用算法函数（如统计、排序、查找等）<br>    —— 2）容器</p>
