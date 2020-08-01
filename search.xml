@@ -3,8 +3,32 @@
   <entry>
     <title>对称点坐标</title>
     <url>/posts/e21acd07/</url>
-    <content><![CDATA[<h3 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h3><p>​    在平面直角坐标系中,有一条直线<script type="math/tex">l: Ax+By+C=0</script>,<script type="math/tex">(注:方程Ax+By+C=0和解析式y=- \frac{A}{B} x-\frac{C}{B}在B\ne 0时等价 )</script>和一给定点<script type="math/tex">P(\alpha,\beta )</script>,求<script type="math/tex">P</script>点关于直线<script type="math/tex">l</script>的对称点的坐标</p>
+    <content><![CDATA[<h3 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h3><p>​    在平面直角坐标系中,有一条直线<script type="math/tex">l: Ax+By+C=0</script>,(注:方程<script type="math/tex">Ax+By+C=0</script>和解析式<script type="math/tex">y=- \frac{A}{B} x-\frac{C}{B}</script>在<script type="math/tex">B\ne 0</script>时等价 )和一给定点<script type="math/tex">P(\alpha,\beta )</script>,求<script type="math/tex">P</script>点关于直线<script type="math/tex">l</script>的对称点的坐标</p>
 <p><img src="https://s1.ax1x.com/2020/07/30/auHbKH.png" style="zoom: 15%;" /></p>
+<h3 id="问题解决"><a href="#问题解决" class="headerlink" title="问题解决"></a>问题解决</h3><p>​    作$P$点关于$l$的对称点$P’$,并过$PP’$点作直线$l_{2}$,如下图:</p>
+<p><img src="https://s1.ax1x.com/2020/08/01/aGm0nP.png" style="zoom:15%;" /></p>
+<p>​    可知直线<script type="math/tex">l_{2}</script>垂直平分<script type="math/tex">l</script>,令<script type="math/tex">l_{2}</script>交<script type="math/tex">l</script>于<script type="math/tex">M</script>,只要计算出<script type="math/tex">M</script>点的坐标即可通过<span id="inline-blue">中点坐标公式</span>计算出<script type="math/tex">P'</script>的坐标</p>
+<blockquote>
+<p><strong>中点坐标公式</strong></p>
+<p>若<script type="math/tex">M</script>是<script type="math/tex">P</script>与<script type="math/tex">P'</script>的中点,则<script type="math/tex">M</script>点满足:</p>
+<script type="math/tex; mode=display">M=\frac{P+P'}{2}</script><p>此式中的字母表示该点的相应坐标(或者说表示从原点到该点的向量),此式在任意维度的坐标系中都成立.</p>
+</blockquote>
+<p>​    我们知道互相垂直的两条直线的斜率互为负倒数,所以由<script type="math/tex">l</script>的斜率为<script type="math/tex">-\frac{A}{B}</script>,可以知道<script type="math/tex">l_{2}</script>的斜率<script type="math/tex">k_{PP'}= \frac{B}{A}</script></p>
+<p>​    所以<script type="math/tex">l_{2}</script>的点斜式为<script type="math/tex">l_{2} :y-B=\frac{B}{A}(x-\alpha )</script>,把点斜式化为一般式并与<script type="math/tex">l</script>联立得:</p>
+<script type="math/tex; mode=display">\left\{\begin{matrix} 
+  Bx-Ay+a +(A\beta -B\alpha )=0 \\  
+  Ax+By+C=0 
+\end{matrix}\right.</script><p>​    解这个方程组,结果即为<script type="math/tex">M</script>的坐标.</p>
+<p>方程组的解为:</p>
+<script type="math/tex; mode=display">x=\frac{B^{2}\alpha -AC-AB\beta }{A^{2}+B^{2}}
+y=\frac{A^{2}\beta-BC-AB\alpha }{A^{2}+B^{2}}</script><p>则<script type="math/tex">M</script>点的坐标为:</p>
+<script type="math/tex; mode=display">M(\frac{B^{2}\alpha -AC-AB\beta }{A^{2}+B^{2}}
+,\frac{A^{2}\beta-BC-AB\alpha }{A^{2}+B^{2}}  )</script><p>带入中点坐标公式,得<script type="math/tex">P'</script>的坐标为:</p>
+<script type="math/tex; mode=display">P'(2x_{M}-\alpha,2y_{M}-\beta)</script><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><blockquote>
+<p><span id="inline-purple">垂足坐标公式</span></p>
+<script type="math/tex; mode=display">M(\frac{B^{2}\alpha -AC-AB\beta }{A^{2}+B^{2}}
+,\frac{A^{2}\beta-BC-AB\alpha }{A^{2}+B^{2}}  )</script><p><span id="inline-purple">对称点坐标公式</span></p>
+<script type="math/tex; mode=display">P'(2x_{M}-\alpha,2y_{M}-\beta)</script></blockquote>
 ]]></content>
       <categories>
         <category>数学</category>
