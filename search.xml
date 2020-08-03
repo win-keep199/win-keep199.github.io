@@ -127,13 +127,13 @@ y=\frac{A^{2}\beta-BC-AB\alpha }{A^{2}+B^{2}}</script><p>则<script type="math/t
     <content><![CDATA[<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;<span class="string">"Hello World!"</span>&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h4 id="类知乎卡片超链接测试"><a href="#类知乎卡片超链接测试" class="headerlink" title="类知乎卡片超链接测试"></a>类知乎卡片超链接测试</h4><p><a href="/photos/" class="LinkCard">我的相册——时光留影</a></p>
 <hr>
-<h4 id="APlayer音乐播放器测试"><a href="#APlayer音乐播放器测试" class="headerlink" title="APlayer音乐播放器测试"></a>APlayer音乐播放器测试</h4><link rel="stylesheet" href="/dist/APlayer.min.css">
-<div id="aplayer"></div>
+<h4 id="APlayer音乐播放器测试"><a href="#APlayer音乐播放器测试" class="headerlink" title="APlayer音乐播放器测试"></a>APlayer音乐播放器测试</h4><p><link rel="stylesheet" href="/dist/APlayer.min.css"></p>
+<p><div id="aplayer"></div></p>
 <script type="text/javascript" src="/dist/APlayer.min.js"></script>
 <script type="text/javascript" src="/dist/music.js"></script>
 
 <hr>
-<h4 id="DPlayer视频播放器测试"><a href="#DPlayer视频播放器测试" class="headerlink" title="DPlayer视频播放器测试"></a>DPlayer视频播放器测试</h4><div id="dplayer"></div>
+<h4 id="DPlayer视频播放器测试"><a href="#DPlayer视频播放器测试" class="headerlink" title="DPlayer视频播放器测试"></a>DPlayer视频播放器测试</h4><p><div id="dplayer"></div></p>
 <script src="/dist/DPlayer.min.js"></script>
 <script type="text/javascript" src="/dist/video.js"></script>
 
@@ -144,6 +144,19 @@ y=\frac{A^{2}\beta-BC-AB\alpha }{A^{2}+B^{2}}</script><p>则<script type="math/t
 <h4 id="文字增加背景色块"><a href="#文字增加背景色块" class="headerlink" title="文字增加背景色块"></a>文字增加背景色块</h4><p><span id="inline-blue"> 站点配置文件 </span><br><span id="inline-purple"> 主题配置文件 </span><br><span id="inline-yellow"> 站点配置文件 </span><br><span id="inline-green"> 主题配置文件 </span></p>
 <hr>
 <h4 id="下载样式"><a href="#下载样式" class="headerlink" title="下载样式"></a>下载样式</h4><p><a id="download" href="https://git-scm.com/download/win" target="_blank" rel="noopener"><i class="fa fa-download"></i><span> Download Now</span> </a></p>
+<hr>
+<h4 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h4><div class="note default"><p>default 提示块标签</p></div>
+<div class="note primary"><p>primary 提示块标签</p></div>
+<div class="note success"><p>success 提示块标签</p></div>
+<div class="note info"><p>info 提示块标签</p></div>
+<div class="note warning"><p>warning 提示块标签</p></div>
+<div class="note danger"><p>danger 提示块标签</p></div>
+<hr>
+<h4 id="选项卡"><a href="#选项卡" class="headerlink" title="选项卡"></a>选项卡</h4><div class="tabs" id="tab"><ul class="nav-tabs"><li class="tab active"><a href="#tab-1">tab 1</a></li><li class="tab"><a href="#tab-2">tab 2</a></li><li class="tab"><a href="#tab-3">A</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-1"><p><strong>选项卡 1</strong> </p>
+</div><div class="tab-pane" id="tab-2"><p><strong>选项卡 2</strong></p>
+</div><div class="tab-pane" id="tab-3"><p><strong>选项卡 3</strong> 名字为A</p>
+</div></div></div>
+<hr>
 <h4 id="地球"><a href="#地球" class="headerlink" title="地球"></a>地球</h4><script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5xgme3vd9ru&amp;m=6&amp;c=007eff&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>]]></content>
   </entry>
 </search>
