@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>小游戏</title>
+    <url>/posts/1b542904/</url>
+    <content><![CDATA[<h4 id="围住小猫"><a href="#围住小猫" class="headerlink" title="围住小猫"></a>围住小猫</h4><p><div align="center"></p>
+<p><div id="catch-the-cat"></div>
+</div></p>
+<script src="https://cdn.jsdelivr.net/gh/XuxuGood/cdn@master/blogJs/catch-the-cat/phaser.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/XuxuGood/cdn@master/blogJs/catch-the-cat/catch-the-cat.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/XuxuGood/cdn@master/blogJs/catch-the-cat/game.js"></script>
+
+<div class="note info"><p>游戏规则：<br>🔔 点击小圆点，围住小猫。<br>🔔 你点击一次，小猫走一次。<br>🔔 直到你把小猫围住（赢），或者小猫走到边界并逃跑（输）。</p></div>]]></content>
+  </entry>
+  <entry>
     <title>对称点坐标</title>
     <url>/posts/e21acd07/</url>
     <content><![CDATA[<h3 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h3><p>​    在平面直角坐标系中,有一条直线<script type="math/tex">l: Ax+By+C=0</script>,(注:方程<script type="math/tex">Ax+By+C=0</script>和解析式<script type="math/tex">y=- \frac{A}{B} x-\frac{C}{B}</script>在<script type="math/tex">B\ne 0</script>时等价 )和一给定点<script type="math/tex">P(\alpha,\beta )</script>,求<script type="math/tex">P</script>点关于直线<script type="math/tex">l</script>的对称点的坐标</p>
@@ -157,6 +169,9 @@ y=\frac{A^{2}\beta-BC-AB\alpha }{A^{2}+B^{2}}</script><p>则<script type="math/t
 </div><div class="tab-pane" id="tab-3"><p><strong>选项卡 3</strong> 名字为A</p>
 </div></div></div>
 <hr>
-<h4 id="地球"><a href="#地球" class="headerlink" title="地球"></a>地球</h4><script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5xgme3vd9ru&amp;m=6&amp;c=007eff&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>]]></content>
+<h4 id="地球"><a href="#地球" class="headerlink" title="地球"></a>地球</h4><script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5xgme3vd9ru&amp;m=6&amp;c=007eff&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>
+
+<hr>
+]]></content>
   </entry>
 </search>
