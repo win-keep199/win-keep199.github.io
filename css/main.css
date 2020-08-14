@@ -2079,7 +2079,7 @@ figure[class*="language-"] {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fce5ee;
+  background: #ede0f2;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3274,6 +3274,12 @@ body {
   background: url("/images/background.jpg") no-repeat center fixed;
   background-size: cover;
   opacity: 0.8;
+}
+* {
+  cursor: url("/images/normal.cur"), auto;
+}
+:link {
+  cursor: url("/images/ayuda.cur"), auto;
 }
 .hitokoto-title {
   text-align: center;
