@@ -42,12 +42,6 @@ y=\frac{A^{2}\beta-BC-AB\alpha }{A^{2}+B^{2}}</script><p>则<script type="math/t
 ,\frac{A^{2}\beta-BC-AB\alpha }{A^{2}+B^{2}}  )</script><p><span id="inline-purple">对称点坐标公式</span></p>
 <script type="math/tex; mode=display">P'(2x_{M}-\alpha,2y_{M}-\beta)</script></blockquote>
 ]]></content>
-      <categories>
-        <category>数学</category>
-      </categories>
-      <tags>
-        <tag>数学公式</tag>
-      </tags>
   </entry>
   <entry>
     <title>STL选讲</title>
@@ -96,12 +90,6 @@ y=\frac{A^{2}\beta-BC-AB\alpha }{A^{2}+B^{2}}</script><p>则<script type="math/t
 <li>insert ()     插入一个元素。 vector采用分块储存技术，时间复杂度O(log(size())<br>例如：c.insert(pos,elem); // 在迭代器pos指向元素前面插入elem.<br>c.insert(pos,ncount,elem);//在迭代器pos前插入ncount个elem<br>c.insert(pos,first,end);//在迭代器pos前插入区间[first,end)的元素，first和end也是迭代器，表示的区间是左闭右开。</li>
 </ol>
 ]]></content>
-      <categories>
-        <category>C++</category>
-      </categories>
-      <tags>
-        <tag>STL</tag>
-      </tags>
   </entry>
   <entry>
     <title>整除</title>
@@ -126,12 +114,6 @@ y=\frac{A^{2}\beta-BC-AB\alpha }{A^{2}+B^{2}}</script><p>则<script type="math/t
 <li>能被11整除的数的特征<br> 若一个整数的奇位数字之和与偶位数字之和的差能被11整除，则这个数能被11整除.</li>
 </ol>
 ]]></content>
-      <categories>
-        <category>数论</category>
-      </categories>
-      <tags>
-        <tag>整除</tag>
-      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
