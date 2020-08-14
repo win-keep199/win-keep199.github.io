@@ -2079,7 +2079,7 @@ figure[class*="language-"] {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b0ff8e;
+  background: #fce5ee;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3270,6 +3270,11 @@ figure[class*="language-"] {
     text-align: justify;
   }
 }
+body {
+  background: url("/images/background.jpg") no-repeat center fixed;
+  background-size: cover;
+  opacity: 0.8;
+}
 .hitokoto-title {
   text-align: center;
   font-size: 12px;
@@ -3593,11 +3598,6 @@ a#download:hover {
   height: 10px;
 /*background: url(../images/scrollbar_arrow.png) no-repeat 0 0;*/
 /*可以添加滚动条样式*/
-}
-body {
-  background: url("/images/background.jpg") no-repeat center fixed;
-  background-size: 100%;
-  opacity: 0.8;
 }
 @-moz-keyframes heartAnimate {
   0%, 100% {
