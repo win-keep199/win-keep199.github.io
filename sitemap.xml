@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://w-k.xyz/about/index.html</loc>
+    
+    <lastmod>2020-08-23T02:18:15.321Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://w-k.xyz/posts/1879f8e5/</loc>
+    
+    <lastmod>2020-08-23T02:16:44.241Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://w-k.xyz/posts/6be34445/</loc>
     
     <lastmod>2020-08-22T13:05:51.084Z</lastmod>
@@ -19,13 +33,6 @@
     <loc>http://w-k.xyz/posts/1b542904/</loc>
     
     <lastmod>2020-08-22T13:02:57.505Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://w-k.xyz/shuoshuo/index.html</loc>
-    
-    <lastmod>2020-08-07T08:24:38.100Z</lastmod>
     
   </url>
   
@@ -61,13 +68,6 @@
     <loc>http://w-k.xyz/tools/index.html</loc>
     
     <lastmod>2020-07-16T12:41:07.323Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://w-k.xyz/about/index.html</loc>
-    
-    <lastmod>2020-06-25T01:02:59.955Z</lastmod>
     
   </url>
   
