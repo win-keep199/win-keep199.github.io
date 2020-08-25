@@ -2,94 +2,154 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://w-k.xyz/posts/1879f8e5/</loc>
+    <loc>https://w-k.xyz/posts/1879f8e5/</loc>
     
-    <lastmod>2020-08-24T05:55:23.933Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://w-k.xyz/about/index.html</loc>
-    
-    <lastmod>2020-08-23T08:23:19.097Z</lastmod>
+    <lastmod>2020-08-24</lastmod>
     
   </url>
   
   <url>
-    <loc>http://w-k.xyz/posts/6be34445/</loc>
+    <loc>https://w-k.xyz/about/index.html</loc>
     
-    <lastmod>2020-08-22T13:05:51.084Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://w-k.xyz/posts/16107/</loc>
-    
-    <lastmod>2020-08-22T13:05:12.593Z</lastmod>
+    <lastmod>2020-08-23</lastmod>
     
   </url>
   
   <url>
-    <loc>http://w-k.xyz/posts/1b542904/</loc>
+    <loc>https://w-k.xyz/posts/6be34445/</loc>
     
-    <lastmod>2020-08-22T13:02:57.505Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://w-k.xyz/posts/e21acd07/</loc>
-    
-    <lastmod>2020-08-01T13:13:15.869Z</lastmod>
+    <lastmod>2020-08-22</lastmod>
     
   </url>
   
   <url>
-    <loc>http://w-k.xyz/posts/a220/</loc>
+    <loc>https://w-k.xyz/posts/16107/</loc>
     
-    <lastmod>2020-07-31T04:50:53.981Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://w-k.xyz/posts/62599/</loc>
-    
-    <lastmod>2020-07-26T02:34:30.052Z</lastmod>
+    <lastmod>2020-08-22</lastmod>
     
   </url>
   
   <url>
-    <loc>http://w-k.xyz/tags/index.html</loc>
+    <loc>https://w-k.xyz/posts/1b542904/</loc>
     
-    <lastmod>2020-07-25T06:11:42.316Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://w-k.xyz/tools/index.html</loc>
-    
-    <lastmod>2020-07-16T12:41:07.323Z</lastmod>
+    <lastmod>2020-08-22</lastmod>
     
   </url>
   
   <url>
-    <loc>http://w-k.xyz/photos/index.html</loc>
+    <loc>https://w-k.xyz/posts/e21acd07/</loc>
     
-    <lastmod>2020-04-25T10:22:54.302Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://w-k.xyz/links/index.html</loc>
-    
-    <lastmod>2020-03-31T08:46:08.723Z</lastmod>
+    <lastmod>2020-08-01</lastmod>
     
   </url>
   
   <url>
-    <loc>http://w-k.xyz/categories/index.html</loc>
+    <loc>https://w-k.xyz/posts/a220/</loc>
     
-    <lastmod>2020-03-28T12:29:44.272Z</lastmod>
+    <lastmod>2020-07-31</lastmod>
     
+  </url>
+  
+  <url>
+    <loc>https://w-k.xyz/posts/62599/</loc>
+    
+    <lastmod>2020-07-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://w-k.xyz/tags/index.html</loc>
+    
+    <lastmod>2020-07-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://w-k.xyz/tools/index.html</loc>
+    
+    <lastmod>2020-07-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://w-k.xyz/photos/index.html</loc>
+    
+    <lastmod>2020-04-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://w-k.xyz/links/index.html</loc>
+    
+    <lastmod>2020-03-31</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://w-k.xyz/categories/index.html</loc>
+    
+    <lastmod>2020-03-28</lastmod>
+    
+  </url>
+  
+
+  <url>
+    <loc>https://w-k.xyz/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>https://w-k.xyz/tags/STL/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://w-k.xyz/tags/%E7%AB%99%E7%82%B9/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://w-k.xyz/tags/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://w-k.xyz/tags/%E6%95%B4%E9%99%A4/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>https://w-k.xyz/categories/C/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://w-k.xyz/categories/%E6%95%B0%E5%AD%A6/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://w-k.xyz/categories/%E6%95%B0%E8%AE%BA/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
   </url>
   
 </urlset>
