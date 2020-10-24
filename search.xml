@@ -1,153 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>硬币悖论</title>
+    <url>/posts/b04da4d7/</url>
+    <content><![CDATA[<h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p>一个硬币围绕另一个硬币无滑动的滚动，从上方滚到下方时到底旋转了几圈。</p><p>滚过的路径只有半个圆周，但是外面的硬币却旋转了一圈。</p><p><img src="/images/lazy.gif" data-original="https://i.loli.net/2020/10/24/yvCpY8HJkFucwqe.png" alt="image.png"></p><h1 id="定量研究"><a href="#定量研究" class="headerlink" title="定量研究"></a>定量研究</h1><h2 id="圆周运动"><a href="#圆周运动" class="headerlink" title="圆周运动"></a>圆周运动</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><blockquote><p>质点在以某点为圆心半径为r的圆周上运动，即质点运动时其轨迹是圆周的运动叫“圆周运动”。它是一种最常见的曲线运动。例如电动机转子、车轮、皮带轮等都作圆周运动。</p></blockquote><p><img src="/images/lazy.gif" data-original="https://i.loli.net/2020/10/24/MRH8OAEmcqT7eJ5.gif" alt="timg-1.gif"></p><h3 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h3><p>匀速圆周运动的特点：轨迹是圆，角速度，周期，线速度的大小(注：因为线速度是矢量,”线速度”大小是不变的，而方向时时在变化)和向心加速度的大小不变，且向心加速度方向总是指向圆心。</p><p>线速度定义：质点沿圆周运动通过的弧长<script type="math/tex">\Delta {L}</script>与所用的时间<script type="math/tex">\Delta {t}</script>的比值叫做线速度，或者角速度与半径的乘积。<script type="math/tex">v=\frac{\Delta {L}}{\Delta {t}}</script></p><p>线速度的物理意义：描述质点沿圆周运动的快慢，是矢量。</p><p>角速度的定义:半径转过的弧度（弧度制:<script type="math/tex">360^{\circ} = 2\pi</script>）与所用时间<script type="math/tex">t</script>的比值。（匀速圆周运动中角速度恒定）<script type="math/tex">\omega =\frac{\Delta \theta }{\Delta t}</script></p><p>周期的定义：作匀速圆周运动的物体,转过一周所用的时间。<script type="math/tex">T=\frac{2\pi r}{v}</script></p><p>频率：单位时间内完成圆周运动的圈数。<script type="math/tex">f=\frac{1}{T}</script></p><p>转速的定义：作匀速圆周运动的物体，单位时间所转过的圈数。<script type="math/tex">n=\frac{N}{t}</script></p><p>各个物理量之间的公式关系如下：</p><script type="math/tex;mode=display">\left\{\begin{matrix}
+v=\frac{2\pi r}{T} =2\pi fr=2\pi nr
+\\ \omega =\frac{2\pi }{T} =2\pi f=2\pi n
+\\ v=\omega r
+\\ T=\frac{1}{f} 
+\end{matrix}\right.</script><h3 id="速度的叠加"><a href="#速度的叠加" class="headerlink" title="速度的叠加"></a>速度的叠加</h3><p><img src="/images/lazy.gif" data-original="https://i.loli.net/2020/10/24/gfWP6DqNs3HjGIJ.png" alt="image.png"></p><p>图中贴着地面的点(A点),一方面跟着圆心走速度为<script type="math/tex">v_0</script>,另一方面还有一个向后转动的速度为<script type="math/tex">\omega r</script>,所以这个点的速度为<script type="math/tex">v_0</script>和<script type="math/tex">\omega r</script>做差,这一时刻A点为瞬心(即速度等于地面的速度为零)</p><p>所以<script type="math/tex">v_0-\omega r=0</script></p><h2 id="研究"><a href="#研究" class="headerlink" title="研究"></a>研究</h2><p><img src="/images/lazy.gif" data-original="https://i.loli.net/2020/10/24/ZD2lENxvSF3RUcA.png" alt="image.png"></p><p>如图所示圆<script type="math/tex">O_2</script>不动,因为圆<script type="math/tex">O_1</script>在转动,所以连线<script type="math/tex">O_1 O_2</script>也在转动,设角速度为<script type="math/tex">\omega_1</script>,同时设<script type="math/tex">O_1 O_2</script>为<script type="math/tex">l_1</script>,<script type="math/tex">O_1</script>与两圆的接触点<script type="math/tex">A</script>的距离为<script type="math/tex">l_2</script>,圆<script type="math/tex">O_1</script>绕<script type="math/tex">l_2</script>旋转的角速度为<script type="math/tex">\omega _2</script>.</p><p>所以<script type="math/tex">O_1</script>点有一个速度为<script type="math/tex">v_1=\omega_1 l_1</script>,瞬心<script type="math/tex">A</script>点有一个向前速度<script type="math/tex">v_1'=v_1=\omega_1 l_1</script>,和一个向后转动的速度为<script type="math/tex">\omega_2 l_2</script>.</p><p>同时因为<script type="math/tex">A</script>点为瞬心,所以<script type="math/tex">v_A=\omega_1 l_1-\omega_2 l_2</script>=0</p><p>所以<script type="math/tex">\omega_1 l_1=\omega_2 l_2</script>,设连线转动角度(公转角度)为<script type="math/tex">\theta _1=\omega_1 t</script>,另一圆转过的角度(自转角度)为<script type="math/tex">\theta _2=\omega_2 t</script></p><p>由上得</p><script type="math/tex;mode=display">\frac{\theta _1}{\theta _2}=\frac{\omega_1 t}{\omega_2 t}=\frac{\omega_1}{\omega_2}=\frac{l_2}{l_1}</script><p>因为本题中<script type="math/tex">l_1=2 l_2</script>,所以<script type="math/tex">2\theta _1=\theta _2</script>,即滚过的路径只有半个圆周，但是外面的硬币却旋转了一圈。</p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><blockquote><p>当一个圆绕着另一个圆无滑动滚动时</p><script type="math/tex;mode=display">\frac{\theta _1}{\theta _2}=\frac{l_2}{l_1}</script><p>(公转角度)<script type="math/tex">\theta _1</script>(自转角度)<script type="math/tex">\theta _2</script></p><p>(两圆心连线)<script type="math/tex">l1</script>(旋转圆半径)<script type="math/tex">l_2</script></p></blockquote>]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>问题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HTML5学习</title>
     <url>/posts/1879f8e5/</url>
     <content><![CDATA[<h3 id="网页基本信息"><a href="#网页基本信息" class="headerlink" title="网页基本信息"></a>网页基本信息</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 注释内容 --&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- DOCTYPE 告诉浏览器我们要用什么规范 --&gt;</span></span><br><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 浏览器默认html 不加也没问题 --&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span> <span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- html 总标签 --&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span> <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- head 网页头部 --&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span> <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- body 网页主体 --&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 每个网页只有一个 head , body 标签 --&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span> <span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- title 网络标题(选项卡) --&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- meta描述性标签,它用来描述网站的一些信息 --&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- meta通常作SEO--搜索引擎优化 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">mate</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- charset编码类型 --&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">mate</span> <span class="attr">name</span>=<span class="string">"keywords"</span> <span class="attr">contect</span>=<span class="string">"..."</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 关键词 --&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">mate</span> <span class="attr">name</span>=<span class="string">"description"</span> <span class="attr">contect</span>=<span class="string">"..."</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- 描述 --&gt;</span></span><br></pre></td></tr></table></figure><h3 id="网页基本标签"><a href="#网页基本标签" class="headerlink" title="网页基本标签"></a>网页基本标签</h3>]]></content>
-  </entry>
-  <entry>
-    <title>统计</title>
-    <url>/posts/6be34445/</url>
-    <content><![CDATA[<html><head></head><style type="text/css">#posts-chart,#categories-chart,#tags-chart{width: 100%;height: 300px;margin: 0.5rem auto;padding: 0.5rem;overflow-x: auto;}</style><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@4.7.0/dist/echarts.min.js"></script><body><div id="posts-chart"></div>
-  <script id="postsChart">
-    let postsChart = echarts.init(document.getElementById('posts-chart'));
-    let postsOption = {
-        title: {
-            text: '文章发布统计图',
-            top: -5,
-            x: 'center'
-        },
-        tooltip: {
-            trigger: 'axis'
-        },
-        xAxis: {
-            type: 'category',
-            data: ["2019-10","2019-11","2019-12","2020-01","2020-02","2020-03","2020-04","2020-05","2020-06","2020-07","2020-08","2020-09","2020-10"]
-        },
-        yAxis: {
-            type: 'value',
-        },
-        series: [
-            {
-                name: '文章篇数',
-                type: 'line',
-                color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,1,2,0,0],
-                markPoint: {
-                    symbolSize: 45,
-                    color: ['#fa755a','#3ecf8e','#82d3f4'],
-                    data: [{
-                        type: 'max',
-                        itemStyle: {color: ['#3ecf8e']},
-                        name: '最大值'
-                    }, {
-                        type: 'min',
-                        itemStyle: {color: ['#fa755a']},
-                        name: '最小值'
-                    }]
-                },
-                markLine: {
-                    itemStyle: {color: ['#ab47bc']},
-                    data: [
-                        {type: 'average', name: '平均值'}
-                    ]
-                }
-            }
-        ]
-    };
-    postsChart.setOption(postsOption);
-    </script><div id="tags-chart" data-length="10"></div>
-  <script id="tagsChart">
-    let tagsChart = echarts.init(document.getElementById('tags-chart'));
-    let tagsOption = {
-        title: {
-            text: 'Top10标签统计图',
-            top: -5,
-            x: 'center'
-        },
-        tooltip: {},
-        xAxis: [
-            {
-                type: 'category',
-                data: ["STL","站点"]
-            }
-        ],
-        yAxis: [
-            {
-                type: 'value'
-            }
-        ],
-        series: [
-            {
-                type: 'bar',
-                color: ['#82d3f4'],
-                barWidth : 18,
-                data: [1,1],
-                markPoint: {
-                    symbolSize: 45,
-                    data: [{
-                        type: 'max',
-                        itemStyle: {color: ['#3ecf8e']},
-                        name: '最大值'
-                    }, {
-                        type: 'min',
-                        itemStyle: {color: ['#fa755a']},
-                        name: '最小值'
-                    }],
-                },
-                markLine: {
-                    itemStyle: {color: ['#ab47bc']},
-                    data: [
-                        {type: 'average', name: '平均值'}
-                    ]
-                }
-            }
-        ]
-    };
-    tagsChart.setOption(tagsOption);
-    </script><div id="categories-chart"></div>
-  <script id="categoriesChart">
-    let categoriesChart = echarts.init(document.getElementById('categories-chart'));
-    let categoriesOption = {
-        title: {
-            text: '文章分类统计图',
-            top: -4,
-            x: 'center'
-        },
-        tooltip: {
-            trigger: 'item',
-            formatter: "{a} <br/>{b} : {c} ({d}%)"
-        },
-        series: [
-            {
-                name: '分类',
-                type: 'pie',
-                radius: '50%',
-                color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"C++","value":1}],
-                itemStyle: {
-                    emphasis: {
-                        shadowBlur: 10,
-                        shadowOffsetX: 0,
-                        shadowColor: 'rgba(0, 0, 0, 0.5)'
-                    }
-                }
-            }
-        ]
-    };
-    categoriesChart.setOption(categoriesOption);
-    </script></body></html>]]></content>
-      <tags>
-        <tag>站点</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>小游戏</title>
-    <url>/posts/1b542904/</url>
-    <content><![CDATA[<h4 id="围住小猫"><a href="#围住小猫" class="headerlink" title="围住小猫"></a>围住小猫</h4><p></p><div align="center"><p></p><p></p><div id="catch-the-cat"></div></div><p></p><script src="https://cdn.jsdelivr.net/gh/XuxuGood/cdn@master/blogJs/catch-the-cat/phaser.min.js"></script><script src="https://cdn.jsdelivr.net/gh/XuxuGood/cdn@master/blogJs/catch-the-cat/catch-the-cat.js"></script><script src="https://cdn.jsdelivr.net/gh/XuxuGood/cdn@master/blogJs/catch-the-cat/game.js"></script><div class="note info"><p>游戏规则：<br>🔔 点击小圆点，围住小猫。<br>🔔 你点击一次，小猫走一次。<br>🔔 直到你把小猫围住（赢），或者小猫走到边界并逃跑（输）。</p></div>]]></content>
-      <tags>
-        <tag>站点</tag>
-      </tags>
   </entry>
   <entry>
     <title>对称点坐标</title>
