@@ -1,0 +1,53 @@
+.cmt-body.twikoo {
+    --twikoo-lighttext: #f2b94b;
+    --twikoo-secondtext: #a1a2b8;
+    --twikoo-emoji-background: #2c323a;
+    --twikoo-theme: #409eff;
+}
+
+.twikoo .tk-comment {
+    margin-top: 0!important;
+    margin-bottom: 1rem;
+    border: 1px dashed var(--block-border);
+    padding: 1rem;
+    border-radius: 4px;
+    background: var(--card);
+}
+
+.twikoo .tk-comment:hover {
+    border-color: var(--twikoo-theme);
+}
+
+.twikoo .tk-comments-title .tk-comments-count span:nth-child(2) {
+    font-size: 1rem;
+}
+
+:root {
+    --block-border: #00000030;
+	--twikoo-theme: #0023ff ;
+    --card: #fff;
+}
+
+/* 滚动条 */
+/**
+ * 这个是控制滚动条整体样式
+ *   控制垂直滚动条的宽度
+ * 或控制水平滚动条的高度
+ */
+::-webkit-scrollbar {
+    width: 5px;  
+    height: 2px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: var(--color-light);
+}
+::-webkit-scrollbar-track {
+    background: #ededed;
+}
+
+/* 解决 mathjax 长公式超出页面范围 */
+.MathJax_Display {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
